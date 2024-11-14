@@ -64,7 +64,7 @@
             padding: 0;
         }
         .projects-list li {
-            background-color: #AFE1AF;
+            background-color: #DAD5AB;
             margin: 8px 0;
             padding: 10px;
             border-radius: 5px;
@@ -95,15 +95,16 @@
         .cta-button:hover {
             background-color: #005bb5;
         }
-        .float-image {
-          float: left;
-          width: 200px;
-          margin-right: 20px;  /* Space between image and content */
-          height: auto;
-        }
-        .float-content {
-          max-width: 600px;  /* Limit content width */
-        }
+      .image-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);  /* Creates 3 equal-width columns */
+      gap: 10px;  /* Adds space between images */
+      }
+
+     .image-grid img {
+      width: 100%;  /* Makes each image fill its respective column */
+      height: auto;  /* Maintains the aspect ratio of the images */
+      }
     </style>
 </head>
 <body>
@@ -125,12 +126,13 @@
     <!-- Main Content Section -->
     <div class="container">
         <!-- About Section -->
-        <div class="container">
-        <img src="img.png" alt="Image" class="image" width="250" height="250">
-        <div class="content">
-        <p><i>Dedicated Conversation Designer with a passion for creating engaging and user centric conversational experiences. With a deep understanding of user needs and behavior, I design seamless, efficient, and engaging conversational flows that ensure optimal customer interactions across voice and text channels</i></p>
-        </div>
-     </div>
+        <div class="image-grid">
+        <img src="ui1.png" alt="Image 1">
+        <img src="img.png" alt="Image 2">
+        <img src="ui.png" alt="Image 3">
+    </div>
+    <p><i>Dedicated Conversation Designer with a passion for creating engaging and user centric conversational experiences. With a deep understanding of user needs and behavior, I design seamless, efficient, and engaging conversational flows that ensure optimal customer interactions across voice and text channels</i></p>
+    </div>
 
         <!-- Projects Section -->
         <div class="section" id="projects">
