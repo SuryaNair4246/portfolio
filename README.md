@@ -1,0 +1,1 @@
+Dedicated Conversation Designer with a passion for creating engaging and user centric conversational experiences. With a deep understanding of user needs and behavior, I design seamless, efficient, and engaging conversational flows that ensure optimal customer interactions across voice and text channels.
